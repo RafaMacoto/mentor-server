@@ -19,7 +19,7 @@ namespace mentor.Migrations
                     NM_FULLNAME = table.Column<string>(type: "NVARCHAR2(150)", maxLength: 150, nullable: false),
                     DS_EMAIL = table.Column<string>(type: "NVARCHAR2(150)", maxLength: 150, nullable: false),
                     DS_PASSWORD = table.Column<string>(type: "NVARCHAR2(2000)", nullable: false),
-                    CAREER_GOAL = table.Column<string>(type: "NVARCHAR2(2000)", nullable: false)
+                    CAREER_GOAL = table.Column<string>(type: "NVARCHAR2(2000)", nullable: true)
                 },
                 constraints: table =>
                 {
