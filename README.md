@@ -26,21 +26,6 @@ API RESTful em .NET voltada ao tema **“O Futuro do Trabalho”**, permitindo g
 
 ---
 
-## Estrutura do Projeto
-
-Mentor/
-├─ Data/ -> DbContext e configurações do banco
-├─ DTOs/ -> Data Transfer Objects
-├─ Models/ -> Classes do domínio
-├─ Services/ -> Lógica de negócios
-├─ Migrations/ -> Migrations do Entity Framework
-├─ Mentor.Tests/ -> Testes unitários
-├─ Program.cs -> Inicialização da aplicação
-└─ README.md -> Este arquivo
-
-yaml
-Copiar código
-
 ---
 
 ## Requisitos
