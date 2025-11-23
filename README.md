@@ -61,9 +61,14 @@ Navegue até a pasta de testes:
 
 
 cd Mentor.Tests
+
+
 Execute os testes:
 
+```
 dotnet test
+
+```
 
 
 ## Boas práticas REST implementadas
